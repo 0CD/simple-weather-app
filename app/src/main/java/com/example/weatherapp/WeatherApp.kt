@@ -426,7 +426,7 @@ fun DetailsView(vm: WeatherViewModel, navController: NavHostController) {
                     horizontalArrangement = Arrangement.SpaceBetween
                 ) {
                     Text(text = stringResource(R.string.temperature_low))
-                    Text(text = vm.weatherItem!!.main.temp_min.roundToInt().toString() + "°")
+                    Text(text = vm.weatherItem!!.main.temp_min.roundToInt().toString() + "°C")
                 }
 
                 Spacer(modifier = Modifier.height(8.dp))
@@ -440,7 +440,7 @@ fun DetailsView(vm: WeatherViewModel, navController: NavHostController) {
                     horizontalArrangement = Arrangement.SpaceBetween
                 ) {
                     Text(text = stringResource(R.string.temperature_high))
-                    Text(text = vm.weatherItem!!.main.temp_max.roundToInt().toString() + "°")
+                    Text(text = vm.weatherItem!!.main.temp_max.roundToInt().toString() + "°C")
                 }
 
                 Spacer(modifier = Modifier.height(8.dp))
@@ -455,7 +455,7 @@ fun DetailsView(vm: WeatherViewModel, navController: NavHostController) {
                     horizontalArrangement = Arrangement.SpaceBetween
                 ) {
                     Text(text = stringResource(R.string.feels_like))
-                    Text(text = vm.weatherItem!!.main.feels_like.roundToInt().toString() + "°")
+                    Text(text = vm.weatherItem!!.main.feels_like.roundToInt().toString() + "°C")
                 }
 
                 Spacer(modifier = Modifier.height(8.dp))
