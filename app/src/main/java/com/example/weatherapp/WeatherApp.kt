@@ -281,7 +281,7 @@ fun CurrentWeatherModule(vm: WeatherViewModel, navController: NavHostController)
 
         // Click me text
         Text(
-            text = "Click me",
+            text = stringResource(R.string.click_me),
             fontSize = 12.sp,
             color = Color(0xff2E3440),
             modifier = Modifier

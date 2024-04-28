@@ -18,4 +18,5 @@
     <string name="wind_speed">Windgeschwindigkeit</string>
     <string name="wind_direction">Windrichtung</string>
     <string name="back_button">Zurück</string>
+    <string name="click_me">Klick mich</string>
 </resources>
