@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="search_bar_placeholder">Search for a city or airport</string>
+    <string name="get_location_icon_desc">Get location</string>
+    <string name="location_icon_desc">Location</string>
+    <string name="weather_icon_desc">Weather Icon</string>
+    <string name="calendar_icon_desc">Calendar Icon</string>
+    <string name="high_temp_shortened">"H: "</string>
+    <string name="low_temp_shortened">"L: "</string>
+    <string name="_24_hour_forecast">24 HOUR FORECAST</string>
+    <string name="additional_details_for">"Additional details for "</string>
+    <string name="temperature_low">Temperature Low</string>
+    <string name="temperature_high">Temperature High</string>
+    <string name="feels_like">Feels Like</string>
+    <string name="humidity">Humidity</string>
+    <string name="pressure">Pressure</string>
+    <string name="wind_speed">Wind speed</string>
+    <string name="wind_direction">Wind direction</string>
+    <string name="back_button">Back</string>
+</resources>
